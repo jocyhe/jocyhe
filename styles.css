@@ -1,3 +1,4 @@
+/*home page*/
 .name {
     font-weight: 100;
     opacity: .7;
@@ -11,7 +12,7 @@
 }
 
 h1 { 
-    font-weight: 100;
+    font-weight: lighter;
 }
 
 .heading1 {
@@ -21,10 +22,15 @@ h1 {
     opacity: 100;
     font-family: Raleway !important;
     text-align: center;
+    width:150px;
 }
 
 .heading1:hover {
   color: #586266;
+}
+
+.title:hover {
+  color: #4560BA;
 }
 
 .sub { 
@@ -57,8 +63,11 @@ a {
 	font-weight: 100;
 	line-height: 53.9px;
 	color: #C3C4E6;
-	font-family: Raleway
+	font-family: Raleway;
 }
+
+/*end*/
+/*every inside page*/
 
 .insidesub { 
   text-align: center;
@@ -74,6 +83,78 @@ a {
 	line-height: 53.9px;
   color: #A7B0E8;
 }
+
+/*end*/
+/*about page */
+
+.list {
+  margin-left: 600px;
+  margin-top:-200px;
+  color: #B3B3B3;
+  font-size: 20px;
+  font-family: Raleway;
+}
+
+.abttext {
+  padding-left: 85px;
+  padding-top: 35px;
+  font-family: Raleway !important;
+  font-weight: 400;
+  color: #CFB1E3;
+  font-size: 30px;
+}
+
+.abtmsg { 
+  margin-top: 110px;
+  margin-left: 65px;
+  margin-right: 700px;
+  font-family: Raleway;
+  font-size: 20px;
+  color: #5D615A;
+}
+
+.abtmsg2 {
+  margin-top: -185px;
+  margin-bottom: 200px;
+  margin-left: 700px;
+  /*margin-right: 700px;*/
+  font-family: Raleway;
+  font-size: 20px;
+  color: #5D615A;
+}
+
+.imgme { 
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  margin-left: 70px;
+}
+
+.connect {
+  margin-top: -85px;
+  text-align: center;
+  font-family: Raleway;
+  font-size: medium;
+}
+
+.fb { 
+  margin-left: 500px;
+  width:50px;
+  height: 50px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.gmail {
+  margin-left: 650px;
+  width:50px;
+  height: 50px;
+  margin-top: -200px;
+  margin-bottom: 15px;
+}
+
+/*end*/
+/*experience pg*/
 
 .msg { 
     margin-bottom: 3px;
@@ -92,33 +173,25 @@ a {
     margin-bottom: 20px;
 }
 
+/*end*/
+/*projects page*/
+
+  /*.msg&msg2(from exp)*/
 .txt { 
     margin-left: 35px;
     margin-top: 0px;
     font-family: Raleway;
     font-size:14px;
-    color:#852447;
+    color:#F5B3B3;
 }
 
-.c { 
-  font-size: 20px;
-  text-align: center;
-  font-family: Raleway !important;
-  font-weight: 400;
+.projlink { 
+  color: #F0C5C5;
 }
 
-.wow {
-  text-align: center;
-  font-family: Raleway !important;
-  font-size: 15px;
-}
+/*end*/
 
-.contact { 
-  width:300px;
-  padding: 0 0 200px 0;
-}
-  
-
+/*all particles-js  */
 /* ---- reset ---- */
 
 body {
