@@ -89,7 +89,7 @@ a {
 
 .list {
   margin-left: 600px;
-  margin-top:-200px;
+  margin-top: -185px;
   color: #B3B3B3;
   font-size: 20px;
   font-family: Raleway;
@@ -131,7 +131,7 @@ a {
 }
 
 .connect {
-  margin-top: -85px;
+  margin-top: -60px;
   text-align: center;
   font-family: Raleway;
   font-size: 20px;
@@ -139,19 +139,17 @@ a {
 }
 
 .fb { 
-  margin-left: 500px;
+  margin-left: 295px;
   width:50px;
   height: 50px;
-  margin-top: 25px;
   margin-bottom: 0px;
 }
 
 .gmail {
-  margin-left: 650px;
+  margin-left: 0px;
   width:50px;
   height: 50px;
-  margin-top: -200px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 /*end*/
@@ -174,6 +172,20 @@ a {
     margin-bottom: 20px;
 }
 
+.explinks {
+    margin-bottom: 3px;
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-top:50px;
+    color: #9FC1E3;
+    font-size: 20px;
+    font-family: Raleway;
+}
+
+.explinks:hover {
+  color: #60A0E0;
+}
+
 /*end*/
 /*projects page*/
 
@@ -190,6 +202,85 @@ a {
   color: #F0C5C5;
 }
 
+/*end*/
+/*blog page */
+.tobloglink {
+  position: relative;
+  font-size: 25px;
+  color: #5E5E5E;
+  margin-left: 50px;
+  top: 50px;
+}
+
+.tobloglink:hover {
+  font-style: italic;
+}
+
+.blogdescript { 
+  position: relative;
+  font-size: 15px;
+  margin-left: 50px;
+  color: #B0B0B0;
+  top:52px;
+}
+/*end */
+/*blog post page */
+.pictag {
+  text-align: center;
+}
+
+.backto {
+  color:#BCC9E6;
+  font-family:Raleway;
+  margin:20px;
+  font-size:20px;
+}
+
+.backto:hover {
+  color:#A7B6D6;
+}
+
+.blogtitle {
+  margin:20px;
+  font-size:50px;
+  font-style:italic;
+}
+
+.blogdate {
+  margin-left:20px;
+  font-size:20px;
+}
+
+.blogtext {
+ margin-left:50px;
+ margin-top:50px;
+ margin-right:150px;
+ font-size:15px;
+ text-indent:50px;
+}
+
+.blogtext2 {
+  margin-left:50px;
+  margin-top:20px;
+  margin-right:150px;
+  font-size:15px;
+  text-indent:50px;
+}
+
+.bloglinks {
+  font-size:15px;
+  color: #89D0E8;
+  margin:0px;
+}
+
+.bloglinks:hover {
+  color: #51B9DB;
+}
+
+.photo {
+  display: block;
+  margin: auto;
+}
 /*end*/
 
 /*all particles-js  */
