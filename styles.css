@@ -105,7 +105,7 @@ a {
 }
 
 .abtmsg { 
-  margin-top: 110px;
+  margin-top: 130px;
   margin-left: 65px;
   margin-right: 700px;
   font-family: Raleway;
@@ -114,13 +114,34 @@ a {
 }
 
 .abtmsg2 {
-  margin-top: -185px;
+  margin-top: 20px;
+  margin-left: 65px;
+  margin-right: 700px;
+  font-family: Raleway;
+  font-size: 20px;
+  color: #5D615A;
+}
+
+.abtmsg3 {
+  margin-top: -305px;
   margin-bottom: 200px;
   margin-left: 700px;
   /*margin-right: 700px;*/
   font-family: Raleway;
   font-size: 20px;
   color: #5D615A;
+}
+
+.abtlinks { 
+  font-family: Raleway;
+  font-size: 20px;
+  color: #5D615A;
+  margin: 0px;
+}
+
+.abtlinks:hover {
+  color: #3B3B3B; 
+  font-style: italic;
 }
 
 .imgme { 
@@ -131,7 +152,7 @@ a {
 }
 
 .connect {
-  margin-top: -100px;
+  margin-top: 100px;
   text-align: center;
   font-family: Raleway;
   font-size: 20px;
@@ -201,7 +222,6 @@ a {
 .projlink { 
   color: #94A4FF;
 }
-
 /*end*/
 /*blog page */
 .tobloglink {
@@ -280,6 +300,41 @@ a {
 .photo {
   display: block;
   margin: auto;
+}
+/*chat */
+.new-note * {
+    display: block;
+}
+
+.note-date {
+    font-style: italic;
+}
+
+.new-note-title {
+    margin: 20px;
+}
+
+.new-notes-content {
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.post-new-note {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.old-notes {
+    margin-left: 25px;
+    color: #6186FF;
+}
+
+.hi {
+    margin-left: 20px;
+    margin-top: 40px;
+    font-family: Poiret One;
+    font-size: 30px;
+    color: gray;
 }
 /*end*/
 
