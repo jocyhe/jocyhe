@@ -35,7 +35,7 @@ h1 {
 
 .sub { 
     margin: auto;
-    width: 65%;
+    width: 58%;
     padding: 6px;
     display: flex;
     border: white;
@@ -105,7 +105,7 @@ a {
 }
 
 .abtmsg { 
-  margin-top: 130px;
+  margin-top: 150px;
   margin-left: 65px;
   margin-right: 700px;
   font-family: Raleway;
@@ -123,9 +123,9 @@ a {
 }
 
 .abtmsg3 {
-  margin-top: -305px;
+  margin-top: -235px;
   margin-bottom: 200px;
-  margin-left: 700px;
+  margin-left: 850px;
   /*margin-right: 700px;*/
   font-family: Raleway;
   font-size: 20px;
@@ -167,8 +167,15 @@ a {
 }
 
 .gmail {
-  margin-left: 0px;
+  margin-left: 7px;
   width:50px;
+  height: 50px;
+  margin-bottom: 0px;
+}
+
+.linkedin {
+  margin-left: 10px;
+  width: 50px;
   height: 50px;
   margin-bottom: 0px;
 }
